@@ -16,6 +16,7 @@ RUN echo "org.neo4j.server.webserver.address=0.0.0.0" >> /var/lib/neo4j/conf/neo
 
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
 COPY pertos.war /usr/local/tomcat/webapps/
+COPY web.xml /usr/local/tomcat/conf/web.xml
 
 EXPOSE 8080 7474 7687
 
