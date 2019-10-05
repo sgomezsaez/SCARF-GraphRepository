@@ -4,8 +4,8 @@ SCARF-GraphRepository is the graph based database together with the management a
 # Build Source & Run
 1. Build *Pertos* application: `cd topologyDis-parent && mvn install && cd ..`
 2. Copy the WAR application to the Deployment directory: `cp ./topologyDis-parent/topologyDis-webresource/target/pertos.war ./Deployment/pertos.war`
-3. Build the docker container: `docker-compose build`
-4. Run: `docker-compose up`
+3. Build the docker container: `cd Deployment && docker-compose build && cd ..`
+4. Run: `cd Deployment && docker-compose up`
 
 # Running the SCARF toolchain
 If you want to run the complete tool chain, please go to [SCARF](https://github.com/sgomezsaez/SCARF)

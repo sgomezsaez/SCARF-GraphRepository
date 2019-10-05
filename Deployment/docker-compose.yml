@@ -1,7 +1,7 @@
 version: '2'
 services:
   pertos:
-    build: ./deployment/
+    build: ./
     container_name: scarf-pertos
     ports:
       - "8090:8080"
