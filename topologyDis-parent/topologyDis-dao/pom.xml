@@ -25,7 +25,7 @@
 	  <groupId>org.neo4j</groupId>
 	  <artifactId>neo4j</artifactId>
 	  <!-- <version>2.2.7</version>   --> <!-- the development version is 2.2.7 but on ubuntu using 2.3.1 -->
-	  <version>2.3.2</version>
+	  <version>3.5.0</version>
     </dependency>
 
 
